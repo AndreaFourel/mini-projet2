@@ -11,6 +11,65 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="row min-vh-100">
+      <div class="col-md-4 m-5 ms-auto">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title text-center">INSCRIPTION</h4>
+            <div class="card-text">
+
+              <form>
+                <div class="form-floating">
+                  <input
+                  class="form-control mb-3" 
+                  type="email" 
+                  name="email" 
+                  id="email"
+                  placeholder="Email"
+                  autocomplete="off">
+                  <label for="email">Email</label>                  
+                </div>
+                <div class="form-floating">
+                  <input
+                  class="form-control mb-3" 
+                  type="pseudo" 
+                  name="pseudo" 
+                  id="pseudo"
+                  maxlength="12"
+                  minlength="2"
+                  placeholder="Pseudo"
+                  autocomplete="off">
+                  <label for="pseudo">Pseudo</label>                  
+                </div>
+                <div class="form-floating">
+                  <input
+                  class="form-control mb-3" 
+                  type="password" 
+                  name="password" 
+                  id="password"
+                  maxlength="12"
+                  minlength="2"
+                  placeholder="Mot de passe"
+                  autocomplete="off">
+                  <label for="password">Mot de passe</label>                  
+                </div>
+                <a href="?signup" class="link-success">S'inscrire</a>
+                <a href="?login" class="link-success">Se connecter</a>
+                <button class="btn btn-dark d-block m-auto fs-4 mt-4" type="submit">Go !</button>
+              </form>
+
+              <section id="home" class="text-center">
+                <h1>Bienvenue sur mon site!</h1>
+                <a class="link-success" href="?logout">Se déconnecter</a>
+              </section>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>     
+  </div>
 
 
 </body>
