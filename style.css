@@ -1,4 +1,14 @@
 body {
-  
+  min-width: 420px;
+  min-height: 100vh;
+  background: fixed url(../images/oasis.jpg) center/cover no-repeat ;
+}
+
+.login-form [type=email] {
+  display: none;
+}
+
+.bg-blur {
+  backdrop-filter: blur(20px);
 }
 
